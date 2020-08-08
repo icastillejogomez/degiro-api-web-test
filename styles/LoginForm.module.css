@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 20px;
+  padding: 22px 32px;
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  text-align: left;
+  width: 100%;
+  font-size: 13px;
+  color: #B2B2B2;
+  font-weight: 400;
+}
+
+.input {
+  display: block;
+  height: 30px;
+  width: 100%;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding: 4px 12px;
+  margin: 8px auto 20px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button {
+  height: 30px;
+  background-color: #1976d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  letter-spacing: .75px;
+  font-weight: 100;
+  color: white;
+  padding: 8px 24px;
+  margin: 0px auto 20px;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
